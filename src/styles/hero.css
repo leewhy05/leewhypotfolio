@@ -1,0 +1,28 @@
+.bod{
+    background-color: white;
+    background-size: cover;
+    color: #F16529;
+    height: 2rem;
+    font-size: bold;
+    width: 15rem;
+    padding-left: 1.5rem;
+}
+.img{
+    width: 30px;
+    border-radius: 100%;
+}
+.lod{
+    width: 20px;
+    height: 0px;
+}
+
+
+@media (max-width: 640px) {
+   .space{
+    text-align: center;
+    
+   }
+   .spac{
+    margin-left: 3.7rem;
+   }
+  }
