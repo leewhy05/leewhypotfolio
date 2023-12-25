@@ -22,7 +22,7 @@ function NavScrollExample() {
             </Nav>
             <div className="d-flex gap-4 lh-base align-items-center ">
               
-                <Link className='text-decoration-none text-light'><h5>Projects</h5></Link>
+                <Link to='/Projects' className='text-decoration-none text-light'><h5>Projects</h5></Link>
               
               
                 <Link className='text-decoration-none text-light'><h5>Resume</h5></Link>

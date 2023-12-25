@@ -1,3 +1,11 @@
 form{
     height: 550px;
 }
+
+@keyframes slide-in {
+    0% {transform: translateX(-100%);}
+    100%{transform: translateX(0);}
+}
+.slide{
+    animation: slide-in 9s;
+}
