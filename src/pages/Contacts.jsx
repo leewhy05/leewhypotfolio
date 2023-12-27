@@ -27,7 +27,6 @@ const Contacts = () => {
          if(data.status === 201){
             toast.success(data.data.msg);
             navigate('/')
-           
          }
 
       } catch (error) {

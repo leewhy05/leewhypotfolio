@@ -9,3 +9,13 @@ form{
 .slide{
     animation: slide-in 9s;
 }
+.jum{
+    height: 15rem;
+    width: 18rem;
+}
+@media (max-width: 500px) {
+   .jum{
+    margin-left: 2rem;
+   }
+  }
+

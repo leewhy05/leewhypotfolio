@@ -12,7 +12,7 @@ const Projects = () => {
       <div className='container mt-4'>
       <h1 className='logo'><Link to='/' className='text-decoration-none text-light'>LEEWHY</Link></h1>
     <hr className='text-light' />
-      <div>
+      <div className='row justify-content-between'>
       <div className='text-light space mt-5 col-lg-5'>
      <div className='spac'>
          <h5 className='bod border boader-3 mb-4 '>Full Stack Developer</h5>
@@ -46,6 +46,45 @@ From implementing user interfaces to optimizing backend systems, I take pride in
     </div>
 
     </div>
+ </div>
+ <div className='col-lg-6 mt-5' style={{backgroundColor:"#2D2D2D"}}>
+     <div className='d-lg-flex justify-content-between' >
+     <div style={{backgroundColor:"#404040"}} className='shadow-sm mt-3 pt-2 jum ps-4'>
+     <p className='text-danger'>React, Javascripts, Nodejs</p>
+     <h3 className='text-light'>Jazzy Burger - <br />E-commerce Website</h3>
+     <div className='d-flex gap-3 mt-5'>
+     <Link className='d-flex align-items-center gap-1 text-decoration-none text-light'>
+        <img src={message} alt=""className='img-fluid lod' />
+        <p className='pt-3'>Email Me</p>
+        <img src={send} alt="" className='img-fluid lod' />
+    </Link>
+    <Link className='d-flex align-items-center gap-1 text-decoration-none text-light'>
+    <img src={github} alt=""className='img-fluid lod' />
+        <p className='pt-3'>GitHub</p>
+        <img src={send} alt="" className='img-fluid lod' />
+    </Link>
+     </div>
+     </div>
+     <div className='' >
+     <div style={{backgroundColor:"#404040"}} className='mt-3 pt-2 jum ps-4'>
+     <p className='text-danger'>React, Javascripts, Nodejs</p>
+     <h3 className='text-light'>Jazzy Burger - <br />E-commerce Website</h3>
+     <div className='d-flex gap-3 mt-5'>
+     <Link className='d-flex align-items-center gap-1 text-decoration-none text-light'>
+        <img src={message} alt=""className='img-fluid lod' />
+        <p className='pt-3'>Email Me</p>
+        <img src={send} alt="" className='img-fluid lod' />
+    </Link>
+    <Link className='d-flex align-items-center gap-1 text-decoration-none text-light'>
+    <img src={github} alt=""className='img-fluid lod' />
+        <p className='pt-3'>GitHub</p>
+        <img src={send} alt="" className='img-fluid lod' />
+    </Link>
+     </div>
+     </div>
+     </div>
+     </div>
+
  </div>
       </div>
       </div>
