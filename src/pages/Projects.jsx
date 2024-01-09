@@ -54,12 +54,12 @@ From implementing user interfaces to optimizing backend systems, I take pride in
      <p className='text-danger'>React, Javascripts, Nodejs</p>
      <h3 className='text-light'>POSIT - <br />BLOG <br /> Website</h3>
      <div className='d-flex gap-3 mt-5'>
-     <Link className='d-flex align-items-center gap-1 text-decoration-none text-light'>
+     <Link to="https://posit.vercel.app" target='blank' className='d-flex align-items-center gap-1 text-decoration-none text-light'>
         <img src={Website} alt=""className='img-fluid lod' />
         <p className='pt-3'>website</p>
         <img src={send} alt="" className='img-fluid lod' />
     </Link>
-    <Link className='d-flex align-items-center gap-1 text-decoration-none text-light'>
+    <Link to='https://github.com/leewhy05/posit' target='blank' className='d-flex align-items-center gap-1 text-decoration-none text-light'>
     <img src={github} alt=""className='img-fluid lod' />
         <p className='pt-3'>GitHub</p>
         <img src={send} alt="" className='img-fluid lod' />
@@ -84,8 +84,45 @@ From implementing user interfaces to optimizing backend systems, I take pride in
      </div>
      </div>
      </div>
+     
      </div>
-
+     <div className='d-lg-flex justify-content-between' >
+     <div style={{backgroundColor:"#404040"}} className='shadow-sm mt-3 pt-2 jum ps-4'>
+     <p className='text-danger'>React, Javascripts, Nodejs</p>
+     <h3 className='text-light'>YOUR GOAL - <br />BLOG <br /> Website</h3>
+     <div className='d-flex gap-3 mt-5'>
+     <Link to="https://userrolefront-xfje.vercel.app" target='blank' className='d-flex align-items-center gap-1 text-decoration-none text-light'>
+        <img src={Website} alt=""className='img-fluid lod' />
+        <p className='pt-3'>website</p>
+        <img src={send} alt="" className='img-fluid lod' />
+    </Link>
+    <Link to='https://github.com/leewhy05/userrolefront' target='blank' className='d-flex align-items-center gap-1 text-decoration-none text-light'>
+    <img src={github} alt=""className='img-fluid lod' />
+        <p className='pt-3'>GitHub</p>
+        <img src={send} alt="" className='img-fluid lod' />
+    </Link>
+     </div>
+     </div>
+     <div className='' >
+     <div style={{backgroundColor:"#404040"}} className='mt-3 pt-2 jum ps-4'>
+     <p className='text-danger'>React, Javascripts</p>
+     <h3 className='text-light'>LEEWHY - <br />E-commerce Website</h3>
+     <div className='d-flex gap-3 mt-5'>
+     <Link to="https://shoppingmall-zeta.vercel.app" target='blank' className='d-flex align-items-center gap-1 text-decoration-none text-light'>
+        <img src={Website} alt=""className='img-fluid lod' />
+        <p className='pt-3'>website</p>
+        <img src={send} alt="" className='img-fluid lod' />
+    </Link>
+    <Link to='https://github.com/leewhy05/projectone' target='blank' className='d-flex align-items-center gap-1 text-decoration-none text-light'>
+    <img src={github} alt=""className='img-fluid lod' />
+        <p className='pt-3'>GitHub</p>
+        <img src={send} alt="" className='img-fluid lod' />
+    </Link>
+     </div>
+     </div>
+     </div>
+     
+     </div>
  </div>
       </div>
       </div>
