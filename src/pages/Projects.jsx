@@ -39,7 +39,7 @@ From implementing user interfaces to optimizing backend systems, I take pride in
         <p className='pt-3'>Email Me</p>
         <img src={send} alt="" className='img-fluid lod' />
     </Link>
-    <Link to="https://github.com/leewhy05" className='d-flex align-items-center gap-1 text-decoration-none text-light'>
+    <Link to="https://github.com/leewhy05" target='blank' className='d-flex align-items-center gap-1 text-decoration-none text-light'>
     <img src={github} alt=""className='img-fluid lod' />
         <p className='pt-3'>GitHub</p>
         <img src={send} alt="" className='img-fluid lod' />

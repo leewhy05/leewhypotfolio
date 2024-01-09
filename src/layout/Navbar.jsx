@@ -6,6 +6,9 @@ import { Link, useMatch } from 'react-router-dom';
 
 
 function NavScrollExample() {
+  const handleButtonClick = () => {
+    window.open('/../src/assets/Odutayo CV (1).pdf', '_blank');
+  };
 
     return (
       <>
@@ -25,7 +28,7 @@ function NavScrollExample() {
                 <Link to='/Projects' className='text-decoration-none text-light'><h5>Projects</h5></Link>
               
               
-                <Link className='text-decoration-none text-light'><h5>Resume</h5></Link>
+                <Link onClick={handleButtonClick} className='text-decoration-none text-light'><h5>Resume</h5></Link>
              
               <Link to='/Contacts' className='text-decoration-none text-light'><h5>Contacts</h5></Link>
             </div>
