@@ -35,6 +35,9 @@ const Contacts = () => {
       }
         
     }
+    const handleButtonClick = () => {
+      window.open('https://drive.google.com/file/d/1_LROA-GYnT5nEXbf0faeMntRdMSRX0ws/view?usp=sharing', '_blank');
+    };
   return (
     <div>
       <div className='container mt-4'>
@@ -54,7 +57,7 @@ From implementing user interfaces to optimizing backend systems, I take pride in
      <div className='fs-4 row'>
         <div className=''><Link to='/Projects'  className='text-decoration-none text-light'>01----Projects</Link></div>
         <hr />
-        <div><Link  className='text-decoration-none text-light'>02----Resume</Link></div>
+        <div><Link onClick={handleButtonClick}  className='text-decoration-none text-light'>02----Resume</Link></div>
         <hr />
         <div><Link to='/Contacts'  className='text-decoration-none text-light'>03----Contacts</Link></div>
         <hr />
