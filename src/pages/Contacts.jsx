@@ -62,7 +62,7 @@ From implementing user interfaces to optimizing backend systems, I take pride in
      <div className='d-flex align-items-center mt-5 gap-3'>
     <Link className='text-decoration-none d-none d-lg-block'><img src={eye} alt={eye} className='img-fluid img' /></Link>
     <div className='d-flex gap-3'>
-    <Link className='d-flex align-items-center gap-1 text-decoration-none text-light'>
+    <Link to="mailto:odutayoayomide85@gmail.com" className='d-flex align-items-center gap-1 text-decoration-none text-light'>
         <img src={messag} alt=""className='img-fluid lod' />
         <p className='pt-3'>Email Me</p>
         <img src={send} alt="" className='img-fluid lod' />
