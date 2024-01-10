@@ -25,7 +25,7 @@ const Contacts = () => {
           })
          console.log(data);
          if(data.status === 201){
-            toast.success(data.data.msg);
+            toast.success(data);
             navigate('/')
          }
 

@@ -7,7 +7,7 @@ import { Link, useMatch } from 'react-router-dom';
 
 function NavScrollExample() {
   const handleButtonClick = () => {
-    window.open('/../src/assets/Odutayo CV (1).pdf', '_blank');
+    window.open('https://drive.google.com/file/d/1_LROA-GYnT5nEXbf0faeMntRdMSRX0ws/view?usp=drive_link', '_blank');
   };
 
     return (
