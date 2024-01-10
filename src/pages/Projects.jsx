@@ -47,7 +47,7 @@ From implementing user interfaces to optimizing backend systems, I take pride in
     </div>
 
     </div>
- </div>
+ </div> 
  <div className='col-lg-6 mt-5' style={{backgroundColor:"#2D2D2D"}}>
      <div className='d-lg-flex justify-content-between' >
      <div style={{backgroundColor:"#404040"}} className='shadow-sm mt-3 pt-2 jum ps-4'>
@@ -69,7 +69,7 @@ From implementing user interfaces to optimizing backend systems, I take pride in
      <div className='' >
      <div style={{backgroundColor:"#404040"}} className='mt-3 pt-2 jum ps-4'>
      <p className='text-danger'>React, Javascripts, Nodejs</p>
-     <h3 className='text-light'>Jazzy Burger - <br />E-commerce Website</h3>
+     <h3 className='text-light'>Jazzy Burger - <br />E-commerce <br /> Website</h3>
      <div className='d-flex gap-3 mt-5'>
      <Link to="https://jazzy-sigma.vercel.app" target='blank' className='d-flex align-items-center gap-1 text-decoration-none text-light'>
         <img src={Website} alt=""className='img-fluid lod' />
@@ -106,7 +106,7 @@ From implementing user interfaces to optimizing backend systems, I take pride in
      <div className='' >
      <div style={{backgroundColor:"#404040"}} className='mt-3 pt-2 jum ps-4'>
      <p className='text-danger'>React, Javascripts</p>
-     <h3 className='text-light'>LEEWHY - <br />E-commerce Website</h3>
+     <h3 className='text-light'>LEEWHY - <br />E-commerce <br />Website</h3>
      <div className='d-flex gap-3 mt-5'>
      <Link to="https://shoppingmall-zeta.vercel.app" target='blank' className='d-flex align-items-center gap-1 text-decoration-none text-light'>
         <img src={Website} alt=""className='img-fluid lod' />
