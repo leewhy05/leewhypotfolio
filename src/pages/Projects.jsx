@@ -74,7 +74,7 @@ From implementing user interfaces to optimizing backend systems, I take pride in
      <p className='text-danger'>React, Javascripts, Nodejs</p>
      <h3 className='text-light'>Jazzy Burger - <br />E-commerce <br /> Website</h3>
      <div className='d-flex gap-3 mt-5'>
-     <Link to="https://jazzy-sigma.vercel.app" target='blank' className='d-flex align-items-center gap-1 text-decoration-none text-light'>
+     <Link to="https://jazzy-seven.vercel.app" target='blank' className='d-flex align-items-center gap-1 text-decoration-none text-light'>
         <img src={Website} alt=""className='img-fluid lod' />
         <p className='pt-3'>website</p>
         <img src={send} alt="" className='img-fluid lod' />
