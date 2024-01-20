@@ -35,7 +35,7 @@ function NavScrollExample() {
           </Navbar.Collapse>
         </Container>
       </Navbar>
-      <hr  className='text-light'/>
+      
       </>
     );
   }
